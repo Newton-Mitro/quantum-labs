@@ -90,15 +90,15 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 py-24">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-[.2em] text-violet-300">
-              Team members
+              Founding team
             </p>
             <h2 className="mt-3 font-display text-4xl font-semibold">
               The people behind the systems.
             </h2>
             <p className="mt-6 leading-8 text-slate-400">
-              A focused team of builders bringing product thinking, software
-              engineering and AI expertise together around the problem that
-              needs solving.
+              The founding team brings product strategy, software engineering,
+              AI, automation, and delivery experience to building practical
+              digital products.
             </p>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 ATG
               </div>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-violet-300">
-                Founder &amp; CEO
+                Founding Member · Founder &amp; CEO
               </p>
               <h3 className="mt-2 font-display text-2xl font-semibold">
                 Aldrin Thomas Gaine
@@ -121,60 +121,111 @@ export default function AboutPage() {
               <div className="team-avatar mb-6 grid h-14 w-14 place-items-center rounded-2xl text-xl font-semibold text-white">
                 T
               </div>
-              <svg className="h-7 w-7 text-cyan-300" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 19h16M6 16V8m4 8V5m4 11v-3m4 3V7" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+              <svg
+                className="h-7 w-7 text-cyan-300"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 19h16M6 16V8m4 8V5m4 11v-3m4 3V7"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  strokeLinecap="round"
+                />
               </svg>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-cyan-300">
-                Team member
+                Founding Member · Product &amp; Strategy
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold">Tonmoy</h3>
+              <h3 className="mt-2 font-display text-2xl font-semibold">
+                Tonmoy Anthony Gomes
+              </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                Product and strategy team member.
+                Focuses on product strategy and shaping customer-focused
+                software.
               </p>
             </div>
             <div className="card rounded-2xl p-6">
               <div className="team-avatar mb-6 grid h-14 w-14 place-items-center rounded-2xl text-xl font-semibold text-white">
                 S
               </div>
-              <svg className="h-7 w-7 text-violet-300" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+              <svg
+                className="h-7 w-7 text-violet-300"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-violet-300">
-                Team member
+                Founding Member · Software Engineering
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold">Sumon</h3>
+              <h3 className="mt-2 font-display text-2xl font-semibold">
+                Sumon Moulik
+              </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                Software engineering team member.
+                Focuses on software engineering and building maintainable
+                applications.
               </p>
             </div>
             <div className="card rounded-2xl p-6">
               <div className="team-avatar mb-6 grid h-14 w-14 place-items-center rounded-2xl text-xl font-semibold text-white">
                 R
               </div>
-              <svg className="h-7 w-7 text-cyan-300" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 3v4m0 10v4M3 12h4m10 0h4M5.6 5.6l2.8 2.8m7.2 7.2 2.8 2.8m0-12.8-2.8 2.8m-7.2 7.2-2.8 2.8" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+              <svg
+                className="h-7 w-7 text-cyan-300"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 3v4m0 10v4M3 12h4m10 0h4M5.6 5.6l2.8 2.8m7.2 7.2 2.8 2.8m0-12.8-2.8 2.8m-7.2 7.2-2.8 2.8"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  strokeLinecap="round"
+                />
               </svg>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-cyan-300">
-                Team member
+                Founding Member · AI &amp; Automation
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold">Raven</h3>
+              <h3 className="mt-2 font-display text-2xl font-semibold">
+                Raven Mark Quiah
+              </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                AI and automation team member.
+                Applies AI and automation to practical business workflows.
               </p>
             </div>
             <div className="card rounded-2xl p-6">
               <div className="team-avatar mb-6 grid h-14 w-14 place-items-center rounded-2xl text-xl font-semibold text-white">
                 N
               </div>
-              <svg className="h-7 w-7 text-violet-300" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm8-4v4l3 2" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+              <svg
+                className="h-7 w-7 text-violet-300"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm8-4v4l3 2"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  strokeLinecap="round"
+                />
               </svg>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-violet-300">
-                Team member
+                Founding Member · Delivery &amp; Partnerships
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold">Newton</h3>
+              <h3 className="mt-2 font-display text-2xl font-semibold">
+                Newton Mitro
+              </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                Delivery and partnership team member.
+                Supports project delivery and partnerships with client teams.
               </p>
             </div>
             <div className="card rounded-2xl p-6">
@@ -182,11 +233,14 @@ export default function AboutPage() {
                 B
               </div>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-cyan-300">
-                Team member
+                Founding Member · Cloud &amp; Infrastructure
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold">Bappy</h3>
+              <h3 className="mt-2 font-display text-2xl font-semibold">
+                Bappy Besra
+              </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                Quantum Labs team member.
+                Works across server maintenance, CI/CD, cloud operations, and
+                networking.
               </p>
             </div>
             <div className="card rounded-2xl p-6">
@@ -194,19 +248,18 @@ export default function AboutPage() {
                 RR
               </div>
               <p className="mt-8 text-xs uppercase tracking-[.16em] text-cyan-300">
-                Team member
+                Founding Member
               </p>
               <h3 className="mt-2 font-display text-2xl font-semibold">
                 Reza Rabbi
               </h3>
               <p className="mt-2 text-sm leading-6 text-slate-400">
-                Quantum Labs team member.
+                Founding member of Quantum Labs.
               </p>
             </div>
           </div>
         </div>
       </section>
     </main>
-    
   );
 }

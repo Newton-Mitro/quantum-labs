@@ -127,6 +127,10 @@ html[data-theme="light"] .text-violet-300 {
   color: #6948a6;
 }
 
+html[data-theme="light"] #team .text-cyan-300 {
+  color: #0e7490;
+}
+
 html[data-theme="light"] .border-line {
   border-color: #d8e1de;
 }
